@@ -305,5 +305,5 @@ Delete
 ```bash
 sudo systemctl disable zgs
 sudo rm /etc/systemd/system/zgs.service
-rm -rf $HOME/0g-storage-node
-```
+rm -rf $HOME/0g-storage-node/run/config.toml
+curl -o $HOME/0g-storage-node/run/config.toml https://vault.astrostake.xyz/0g-labs/config-v3.toml
